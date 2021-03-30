@@ -1,13 +1,13 @@
 {
-    "name": "alexgiuvara/imgproxy",
+    "name": "canerdogan/imgproxy",
     "description": "Laravel Service Provider for imgproxy: Resize your images instantly and securely",
     "keywords": ["laravel","resize","image","proxy","imgproxy","micro-service"],
-    "homepage": "https://github.com/alexgiuvara/imgproxy",
+    "homepage": "https://github.com/canerdogan/imgproxy",
     "license" : "MIT",
     "authors": [
         {
-            "name": "Alex Giuvara",
-            "homepage": "https://github.com/alexgiuvara",
+            "name": "Can Erdogan",
+            "homepage": "https://github.com/canerdogan",
             "role": "Developer"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-0": {
-            "AlexGiuvara\\ImgProxy": "src/"
+            "CanErdogan\\ImgProxy": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -48,7 +48,7 @@
      "extra": {
         "laravel": {
             "providers": [
-                "AlexGiuvara\\ImgProxy\\ImgProxyServiceProvider"
+                "CanErdogan\\ImgProxy\\ImgProxyServiceProvider"
             ]
         }
     }

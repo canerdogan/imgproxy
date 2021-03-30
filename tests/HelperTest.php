@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use AlexGiuvara\ImgProxy\Contracts\ImageSignatureInterface;
-use AlexGiuvara\ImgProxy\ImageSignature;
+use CanErdogan\ImgProxy\Contracts\ImageSignatureInterface;
+use CanErdogan\ImgProxy\ImageSignature;
 use Mockery as m;
 
 class HelperTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace AlexGiuvara\ImgProxy;
+namespace CanErdogan\ImgProxy;
 
-use AlexGiuvara\ImgProxy\Exceptions\InvalidFormat;
+use CanErdogan\ImgProxy\Exceptions\InvalidFormat;
 use Illuminate\Support\Str;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexGiuvara\ImgProxy\Contracts;
+namespace CanErdogan\ImgProxy\Contracts;
 
 interface ImageSignatureInterface
 {

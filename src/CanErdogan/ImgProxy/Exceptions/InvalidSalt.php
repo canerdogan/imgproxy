@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexGiuvara\ImgProxy\Exceptions;
+namespace CanErdogan\ImgProxy\Exceptions;
 
 class InvalidSalt extends \InvalidArgumentException
 {

@@ -1,7 +1,7 @@
 <?php
-namespace AlexGiuvara\ImgProxy;
+namespace CanErdogan\ImgProxy;
 
-use AlexGiuvara\ImgProxy\Contracts\ImageSignatureInterface;
+use CanErdogan\ImgProxy\Contracts\ImageSignatureInterface;
 use Illuminate\Support\ServiceProvider;
 
 class ImgProxyServiceProvider extends ServiceProvider

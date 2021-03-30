@@ -1,14 +1,14 @@
 <?php
 
-namespace spec\AlexGiuvara\ImgProxy;
+namespace spec\CanErdogan\ImgProxy;
 
-use AlexGiuvara\ImgProxy\Exceptions\InvalidKey;
-use AlexGiuvara\ImgProxy\Exceptions\InvalidSalt;
-use AlexGiuvara\ImgProxy\Exceptions\InvalidToken;
-use AlexGiuvara\ImgProxy\Exceptions\MissingKey;
-use AlexGiuvara\ImgProxy\Exceptions\MissingSalt;
-use AlexGiuvara\ImgProxy\Exceptions\MissingToken;
-use AlexGiuvara\ImgProxy\Image;
+use CanErdogan\ImgProxy\Exceptions\InvalidKey;
+use CanErdogan\ImgProxy\Exceptions\InvalidSalt;
+use CanErdogan\ImgProxy\Exceptions\InvalidToken;
+use CanErdogan\ImgProxy\Exceptions\MissingKey;
+use CanErdogan\ImgProxy\Exceptions\MissingSalt;
+use CanErdogan\ImgProxy\Exceptions\MissingToken;
+use CanErdogan\ImgProxy\Image;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Tests\SpecMatchers;

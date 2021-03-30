@@ -1,9 +1,9 @@
 <?php
 
-namespace spec\AlexGiuvara\ImgProxy;
+namespace spec\CanErdogan\ImgProxy;
 
-use AlexGiuvara\ImgProxy\Exceptions\InvalidFormat;
-use AlexGiuvara\ImgProxy\Image;
+use CanErdogan\ImgProxy\Exceptions\InvalidFormat;
+use CanErdogan\ImgProxy\Image;
 use Illuminate\Support\Str;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;

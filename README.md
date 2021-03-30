@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/alexgiuvara/imgproxy/v/stable)](https://packagist.org/packages/alexgiuvara/imgproxy)[![Total Downloads](https://poser.pugx.org/alexgiuvara/imgproxy/downloads)](https://packagist.org/packages/alexgiuvara/imgproxy)
+[![Latest Stable Version](https://poser.pugx.org/canerdogan/imgproxy/v/stable)](https://packagist.org/packages/canerdogan/imgproxy)[![Total Downloads](https://poser.pugx.org/canerdogan/imgproxy/downloads)](https://packagist.org/packages/canerdogan/imgproxy)
 # img-proxy
 
 Laravel Service Provider for Golang ImgProxy micro-service https://evilmartians.com/chronicles/introducing-imgproxy
@@ -6,14 +6,14 @@ Laravel Service Provider for Golang ImgProxy micro-service https://evilmartians.
 ## Install
 Works with Laravel 5.1 - 5.7 / PHP 7.0 - 7.2, probably 7.3 too
 
-- `composer require alexgiuvara/imgproxy`
+- `composer require canerdogan/imgproxy`
 - copy the ServiceProvider to the providers array in config/app.php. Laravel 5.5 users with  auto-discovery may skip this step
 ```php
-AlexGiuvara\ImgProxy\ImgProxyServiceProvider::class,
+CanErdogan\ImgProxy\ImgProxyServiceProvider::class,
 ```
 - copy the package config to your local config with the publish command:
 ```php
-php artisan vendor:publish --provider="AlexGiuvara\\ImgProxy\\ImgProxyServiceProvider"
+php artisan vendor:publish --provider="CanErdogan\\ImgProxy\\ImgProxyServiceProvider"
 ```
 
 - to generate the secrets, you can use this command: `echo $(xxd -g 2 -l 64 -p /dev/random | tr -d '\n')`
@@ -38,8 +38,8 @@ imgProxy('https://www.nasa.gov/sites/default/files/images/528131main_PIA13659_fu
 ```
 
 ```php
-use AlexGiuvara\ImgProxy\Contracts\ImageSignatureInterface;
-use AlexGiuvara\ImgProxy\Image;
+use CanErdogan\ImgProxy\Contracts\ImageSignatureInterface;
+use CanErdogan\ImgProxy\Image;
 
 Route::get('/img-test', function () {
     $path      = 'https://www.nasa.gov/sites/default/files/images/528131main_PIA13659_full.jpg';

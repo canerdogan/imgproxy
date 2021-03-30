@@ -1,12 +1,12 @@
 <?php
 
-namespace AlexGiuvara\ImgProxy;
+namespace CanErdogan\ImgProxy;
 
-use AlexGiuvara\ImgProxy\Contracts\ImageSignatureInterface;
-use AlexGiuvara\ImgProxy\Exceptions\InvalidKey;
-use AlexGiuvara\ImgProxy\Exceptions\InvalidSalt;
-use AlexGiuvara\ImgProxy\Exceptions\MissingKey;
-use AlexGiuvara\ImgProxy\Exceptions\MissingSalt;
+use CanErdogan\ImgProxy\Contracts\ImageSignatureInterface;
+use CanErdogan\ImgProxy\Exceptions\InvalidKey;
+use CanErdogan\ImgProxy\Exceptions\InvalidSalt;
+use CanErdogan\ImgProxy\Exceptions\MissingKey;
+use CanErdogan\ImgProxy\Exceptions\MissingSalt;
 use Illuminate\Support\Str;
 
 class ImageSignature implements ImageSignatureInterface

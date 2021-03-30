@@ -1,7 +1,7 @@
 <?php
 
-use AlexGiuvara\ImgProxy\Contracts\ImageSignatureInterface;
-use AlexGiuvara\ImgProxy\Image;
+use CanErdogan\ImgProxy\Contracts\ImageSignatureInterface;
+use CanErdogan\ImgProxy\Image;
 
 if (! function_exists('imgProxy')) {
 
